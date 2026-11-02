@@ -125,3 +125,7 @@ or changing it.
   returns the verbatim transcript.
 - `format: 'srt' | 'vtt'` synthesizes subtitles from segment timing when the
   service did not return its own SRT/VTT body.
+
+## License
+
+MIT — see [LICENSE](LICENSE).
