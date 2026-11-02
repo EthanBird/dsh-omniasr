@@ -1,0 +1,6 @@
+{
+  "meta": {
+    "title": "OmniASR 语音转写",
+    "description": "用 OmniASR 转写本地音视频、公网媒体链接与 B站/抖音视频，可导出 SRT/VTT/Markdown；设置页可查看剩余额度。"
+  }
+}

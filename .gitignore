@@ -1,0 +1,10 @@
+# Local instance config — contains the OmniASR API key. Never commit this.
+cordis.patch.yml
+
+# Dependency / build noise
+node_modules/
+*.log
+
+# OS clutter
+.DS_Store
+Thumbs.db

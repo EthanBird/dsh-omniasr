@@ -1,0 +1,19 @@
+# OmniASR speech-to-text tools.
+#
+# The row inserts three Host tools:
+#   omniasr_transcribe - speech/media -> text (or SRT/VTT/Markdown)
+#   omniasr_task       - fetch an async transcription task by id
+#   omniasr_usage      - current usage and remaining quota
+#
+# Copy this file to `cordis.patch.yml` and fill in your own key.
+# `cordis.patch.yml` is git-ignored so a real key never reaches the repository.
+# Alternatively omit `apiKey` and export OMNIASR_API_KEY / ASR_API_KEY instead.
+- insert:
+    - id: omniasr
+      name: '@local/dsh-omniasr'
+      config:
+        # Replace with your key, or leave empty and set OMNIASR_API_KEY.
+        apiKey: ''
+        baseUrl: 'https://omniasr.vip/api'
+        defaultEngine: '16k_zh'
+        defaultWaitSeconds: 180

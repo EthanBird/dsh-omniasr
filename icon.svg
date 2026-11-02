@@ -1,0 +1,17 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64" width="64" height="64" role="img" aria-label="OmniASR speech to text">
+  <defs>
+    <linearGradient id="omniasr-bg" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#1f6feb"/>
+      <stop offset="1" stop-color="#0b3d91"/>
+    </linearGradient>
+  </defs>
+  <rect x="2" y="2" width="60" height="60" rx="16" fill="url(#omniasr-bg)"/>
+  <g fill="#ffffff">
+    <rect x="16" y="27" width="4" height="10" rx="2"/>
+    <rect x="23" y="21" width="4" height="22" rx="2"/>
+    <rect x="30" y="15" width="4" height="34" rx="2"/>
+    <rect x="37" y="22" width="4" height="20" rx="2"/>
+    <rect x="44" y="28" width="4" height="8" rx="2"/>
+  </g>
+  <path d="M14 48h26l6 6v-6h4" fill="none" stroke="#9ecbff" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"/>
+</svg>

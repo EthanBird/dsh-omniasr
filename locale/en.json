@@ -1,0 +1,6 @@
+{
+  "meta": {
+    "title": "OmniASR Speech-to-Text",
+    "description": "Transcribe local audio/video, public media URLs and Bilibili/Douyin links with OmniASR, export SRT/VTT/Markdown, and check the remaining quota."
+  }
+}
